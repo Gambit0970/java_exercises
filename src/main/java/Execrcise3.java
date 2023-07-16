@@ -24,9 +24,9 @@ public class Execrcise3 {
     }
 
     public static void main(String[] args) {
-        Person Richard = new Person("Richard", "Young", 46);
-        Person Kathy = new Person("Kathy", "Young");
-        System.out.println(Richard.getAge());
-        System.out.println(Kathy.getAge());
+        Person Bob = new Person("Bob", "Trotter", 46);
+        Person Jacqui = new Person("Jacqui", "Smith");
+        System.out.println(Bob.getAge());
+        System.out.println(Jacqui.getAge());
     }
 }
