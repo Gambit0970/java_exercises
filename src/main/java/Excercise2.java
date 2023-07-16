@@ -10,7 +10,7 @@ public class Excercise2 {
     }
     public static List<Integer> getAllEvensToNum(int total){
         List<Integer> intList = new ArrayList<Integer>();
-        for (int i = 1; i <= total; i++) {
+        for (int i = 1; intList.size() <= total; i++) {
             if (isEven(i)) {
                 intList.add(i);
             }
